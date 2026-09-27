@@ -15,8 +15,11 @@ source.dir = .
 # (list) Source files to include (let it decide)
 source.include_exts = py,png,jpg,kv,atlas
 
+# (str) Version of your application
+version = 0.1
+
 # (list) Application requirements
-requirements = python3,kivy
+requirements = python3,kivy,cython
 
 # (str) Supported orientations
 orientation = portrait
